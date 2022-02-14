@@ -1,0 +1,46 @@
+.loginWrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  padding: 50px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.loginContainer h1 {
+  font-size: 50px;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0 50px;
+  font-size: 15px;
+}
+
+#loginForm input {
+  width: 350px;
+  margin-bottom: 10px;
+  padding: 10px 0 10px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #fafafa;
+  outline: none;
+}
+
+#loginForm button {
+  padding: 15px 0;
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  opacity: 0.5;
+  cursor: default;
+}
