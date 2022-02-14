@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0px;
+  position: relative;
+  height: 100%;
+  padding-top: 168px;
+}
+
+header {
+  background-color: #203562;
+  color: #c0c5cd;
+  border-bottom: 3px solid black;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  height: 95x;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+header h1 {
+  margin-top: 21.44px;
+}
+
+header h3 {
+  margin-top: 18.72px;
+  margin-bottom: 18.72px;
+}
+
+#underHeader {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 3px solid black;
+  background-color: #c0c5cd;
+  font-weight: bold;
+  font-style: italic;
+  width: 100%;
+  height: 25px;
+  position: fixed;
+  top: 144px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#keywordOutline {
+  padding: 30px;
+  border-bottom: 3px solid black;
+  background-color: #e3e8f8;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.keywords {
+  border: 2px solid black;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px slategrey;
+}
+
+.keywords:hover {
+  transform: scale(1.03);
+  transition: ease-in-out 0.5ms;
+}
+
+.keywords h4 {
+  margin: 10px;
+}
+
+.keywords p {
+  margin: 5px;
+  padding: 5px;
+}
+
+#sunset,
+#beach {
+  font-weight: 700;
+  font-style: italic;
+}
+
+#sunset:hover,
+#beach:hover {
+  cursor: pointer;
+}
+
+.fullScreen {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.insidePic {
+  width: 450px;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+button {
+  position: absolute;
+  right: 15px;
+  top: 3px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: white;
+}
+
+div img {
+  width: 400px;
+  height: 400px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: #203562;
+  color: #c0c5cd;
+  padding: 10px;
+}
+
+footer h5 {
+  font-style: italic;
+  margin-top: 0px;
+  padding: 10px;
+}
