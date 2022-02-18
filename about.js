@@ -21,7 +21,7 @@ function handleBeach() {
   }
 }
 
-beach.addEventListener("click", handleBeach);
-closeB.addEventListener("click", handleBeach);
 sunset.addEventListener("click", handleSun);
 closeS.addEventListener("click", handleSun);
+beach.addEventListener("click", handleBeach);
+closeB.addEventListener("click", handleBeach);
